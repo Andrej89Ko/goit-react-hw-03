@@ -1,0 +1,33 @@
+.search {
+  margin: auto;
+  display: inline-table;
+}
+.label {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.name {
+  color: aliceblue;
+  font-size: 20px;
+}
+.search-input {
+  width: 304px;
+  padding: 6px 12px;
+  outline: none;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: transparent;
+  color: aliceblue;
+}
+.search-input:focus {
+  border-color: blue;
+}
+.search-input::placeholder {
+  font-size: 14px;
+  color: aliceblue;
+}

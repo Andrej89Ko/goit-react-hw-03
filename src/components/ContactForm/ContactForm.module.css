@@ -1,0 +1,54 @@
+.form {
+  margin: auto;
+  border: 1px solid aliceblue;
+  border-radius: 8px;
+  width: 320px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.label {
+  text-align: start;
+  display: block;
+  margin-bottom: 8px;
+}
+.name {
+  color: aliceblue;
+  font-size: 20px;
+}
+.wrapper {
+  position: relative;
+}
+
+.input {
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 12px;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 20px;
+
+  &::placeholder {
+    color: aliceblue;
+  }
+}
+
+.errorMessage {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: tomato;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(60, 60, 60);
+  border: 1px solid rgb(60, 60, 60);
+  transition: color cubic-bezier(0, 4, 1, 4) 250ms;
+}
